@@ -3964,7 +3964,7 @@ label {
     transition: all 0.5s ease;
   }
   .cs-nav .cs-nav_list .cs-mega_wrapper a:hover img {
-    border-color: rgba(255, 74, 23, 0.6);
+    border-color: rgba(252, 194, 33, 0.6);
   }
   .cs-nav .cs-nav_list .cs-mega_wrapper > li {
     -webkit-box-flex: 1;
@@ -5148,7 +5148,7 @@ label {
   height: 626px;
   width: 626px;
   border-radius: 50%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 74, 23, 0.8) 0%, rgba(255, 74, 23, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(252, 194, 33, 0.8) 0%, rgba(252, 194, 33, 0) 100%);
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -5418,8 +5418,8 @@ label {
   height: 173px;
   width: 173px;
   border-radius: 50%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fcc221), to(rgba(255, 74, 23, 0.5)));
-  background: linear-gradient(180deg, #fcc221 0%, rgba(255, 74, 23, 0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcc221), to(rgba(252, 194, 33, 0.5)));
+  background: linear-gradient(180deg, #fcc221 0%, rgba(252, 194, 33, 0.5) 100%);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   top: 35px;
@@ -6253,8 +6253,8 @@ label {
 .cs-iconbox.cs-style1 .cs-iconbox_icon {
   padding: 4px 10px;
   display: inline-block;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 74, 23, 0.3)), color-stop(95.61%, transparent));
-  background: linear-gradient(90deg, rgba(255, 74, 23, 0.3) 0%, transparent 95.61%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(252, 194, 33, 0.3)), color-stop(95.61%, transparent));
+  background: linear-gradient(90deg, rgba(252, 194, 33, 0.3) 0%, transparent 95.61%);
 }
 .cs-iconbox.cs-style1.cs-type1 .cs-iconbox_icon {
   padding: 0;
@@ -6635,8 +6635,8 @@ label {
   display: block;
 }
 .cs-card.cs-style1:hover {
-  -webkit-filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
-          filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(252, 194, 33, 0.5));
+          filter: drop-shadow(0px 0px 30px rgba(252, 194, 33, 0.5));
 }
 .cs-card.cs-style1 img {
   width: 100%;
@@ -7092,7 +7092,7 @@ label {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 300px;
-  border: 1px solid rgba(255, 74, 23, 0.1);
+  border: 1px solid rgba(252, 194, 33, 0.1);
   padding: 20px 15px 5px;
   position: relative;
   margin-top: 5px;
@@ -7104,7 +7104,7 @@ label {
   width: 100%;
   left: -5px;
   top: -5px;
-  background-color: rgba(255, 74, 23, 0.1);
+  background-color: rgba(252, 194, 33, 0.1);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -7112,10 +7112,10 @@ label {
   max-height: 100%;
 }
 .cs-image_box.cs-style1:hover {
-  border-color: rgba(255, 74, 23, 0.2);
+  border-color: rgba(252, 194, 33, 0.2);
 }
 .cs-image_box.cs-style1:hover::before {
-  background-color: rgba(255, 74, 23, 0.2);
+  background-color: rgba(252, 194, 33, 0.2);
   left: 0;
   top: 0;
 }
@@ -7524,8 +7524,8 @@ label {
   border-radius: 5px;
 }
 .cs-portfolio.cs-style1.cs-type2 .cs-portfolio_hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 74, 23, 0.7)), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(180deg, rgba(255, 74, 23, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 194, 33, 0.7)), to(rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(180deg, rgba(252, 194, 33, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
 .cs-portfolio.cs-style1.cs-type2 .cs-portfolio_info_bg {
   display: none;
