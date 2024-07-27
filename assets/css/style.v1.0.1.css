@@ -6153,6 +6153,9 @@ label {
   .cs-hero.cs-style1 .cs-hero_info > div {
     width: 100%;
   }
+  .cs-hero.cs-style1 .cs-down_btn{
+    bottom: 130px;
+  }
   .cs-hero.cs-style1.cs-type1 .cs-hero_subtitle {
     margin-left: auto;
     margin-right: auto;
