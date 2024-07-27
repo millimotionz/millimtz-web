@@ -1,5 +1,4 @@
-/*
-1. Typography
+/* 1. Typography
 2. Preloader
 3. Spacing
 4. General
@@ -20,8 +19,7 @@
 19. Testimonial
 20. Portfolio
 21. FunFact
-22. Pricing
-*/
+22. Pricing */
 /* 1. Typography */
 body,
 html {
@@ -194,9 +192,7 @@ input, textarea {
   color: #FEFEFE;
 }
 
-/*--------------------------------------------------------------
-  3. Spacing
-----------------------------------------------------------------*/
+/* 3. Spacing */
 @media screen and (min-width: 992px) {
   .cs-height_0 {
     height: 0px;
@@ -459,9 +455,7 @@ input, textarea {
     height: 210px;
   }
 }
-/*--------------------------------------------------------------
-  4. General
-----------------------------------------------------------------*/
+/* 4. General */
 .cs-row_gap_20 {
   margin-left: -10px;
   margin-right: -10px;
@@ -2596,9 +2590,7 @@ label {
   }
 }
 
-/*--------------------------------------------------------------
-  5. Slider
-----------------------------------------------------------------*/
+/* 5. Slider */
 .cs-slider_heading.cs-style1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3235,9 +3227,7 @@ label {
     margin-left: -38px;
   }
 }
-/*--------------------------------------------------------------
-6. Video Popup
-----------------------------------------------------------------*/
+/* 6. Video Popup */
 .cs-pd_video .cs-video_open,
 .cs-sample_img .cs-video_open {
   position: absolute;
@@ -4227,9 +4217,7 @@ label {
     height: 20px;
   }
 }
-/*--------------------------------------------------------------
-  8. Footer
-----------------------------------------------------------------*/
+/* 8. Footer */
 .cs-fooer_main {
   padding: 95px 0 35px;
 }
@@ -4426,9 +4414,7 @@ label {
             align-items: center;
   }
 }
-/*--------------------------------------------------------------
-9. Isotope
-----------------------------------------------------------------*/
+/* 9. Isotope */
 .cs-isotop {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -4686,9 +4672,7 @@ label {
     padding-bottom: 3px;
   }
 }
-/*--------------------------------------------------------------
-  10. Sidebar
-----------------------------------------------------------------*/
+/* 10. Sidebar */
 .cs-sidebar_item:not(:last-child) {
   margin-bottom: 70px;
 }
@@ -4855,9 +4839,7 @@ label {
     margin-bottom: 40px;
   }
 }
-/*--------------------------------------------------------------
-  11. Hero
-----------------------------------------------------------------*/
+/* 11. Hero */
 .cs-hero.cs-style1 .cs-hero_social_wrap,
 .cs-hero.cs-style2 .cs-hero_social_wrap,
 .cs-hero.cs-style3 .cs-hero_social_wrap,
