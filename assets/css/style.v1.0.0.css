@@ -3881,7 +3881,7 @@ label {
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background-color: #000;
+  background-color: var(--darkB);
 }
 
 .cs-gescout_show {
@@ -5058,11 +5058,11 @@ label {
 .cs-hero.cs-style1 {
   position: relative;
   padding: 250px 0 170px;
-  height: calc(100vh + 180px);
+  height: 100vh;
   min-height: 1000px;
 }
 .cs-hero.cs-style1 .cs-hero_title {
-  font-size: 120px;
+  font-size: 90px;
   font-weight: 700;
   margin-bottom: 60px;
   line-height: 1.25em;
@@ -5725,38 +5725,38 @@ label {
     display: none;
   }
 }
-.cs-hero.cs-style7 .cs-hero_img_2 {
+.cs-hero.cs-style7 .cs-hero_img_2, .cs-hero.cs-style1 .cs-hero_img_2 {
   position: absolute;
   top: 44%;
   left: 16%;
 }
 @media (max-width: 991px) {
-  .cs-hero.cs-style7 .cs-hero_img_2 {
+  .cs-hero.cs-style7 .cs-hero_img_2, .cs-hero.cs-style1 .cs-hero_img_2 {
     left: 10%;
   }
 }
 @media (max-width: 575px) {
-  .cs-hero.cs-style7 .cs-hero_img_2 {
+  .cs-hero.cs-style7 .cs-hero_img_2, .cs-hero.cs-style1 .cs-hero_img_2 {
     top: 80%;
     left: 40%;
   }
 }
-.cs-hero.cs-style7 .cs-hero_img_2 img {
+.cs-hero.cs-style7 .cs-hero_img_2, .cs-hero.cs-style1 .cs-hero_img_2 img {
   -webkit-animation: UpAndDown 15s infinite;
           animation: UpAndDown 15s infinite;
 }
-.cs-hero.cs-style7 .cs-hero_img_3 {
+.cs-hero.cs-style7 .cs-hero_img_3, .cs-hero.cs-style1 .cs-hero_img_3 {
   position: absolute;
   right: 15%;
   top: 32%;
 }
 @media (max-width: 991px) {
-  .cs-hero.cs-style7 .cs-hero_img_3 {
+  .cs-hero.cs-style7 .cs-hero_img_3, .cs-hero.cs-style1 .cs-hero_img_3 {
     right: 10%;
   }
 }
 @media (max-width: 575px) {
-  .cs-hero.cs-style7 .cs-hero_img_3 {
+  .cs-hero.cs-style7 .cs-hero_img_3, .cs-hero.cs-style1 .cs-hero_img_3 {
     right: initial;
     top: 16%;
     left: 50%;
@@ -5764,7 +5764,7 @@ label {
             transform: translateX(-50%);
   }
 }
-.cs-hero.cs-style7 .cs-hero_img_3 img {
+.cs-hero.cs-style7 .cs-hero_img_3, .cs-hero.cs-style1 .cs-hero_img_3 img {
   -webkit-animation: semi-rotate-anim 9.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
           animation: semi-rotate-anim 9.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
@@ -6219,7 +6219,7 @@ label {
 @media screen and (max-width: 991px) {
   .cs-hero.cs-style1 {
     padding-top: 60px;
-    padding-bottom: 260px;
+    padding-bottom: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -6247,9 +6247,6 @@ label {
   }
   .cs-hero.cs-style1 .cs-hero_info > div {
     width: 100%;
-  }
-  .cs-hero.cs-style1 .cs-down_btn {
-    bottom: 220px;
   }
   .cs-hero.cs-style1.cs-type1 .cs-hero_subtitle {
     margin-left: auto;
